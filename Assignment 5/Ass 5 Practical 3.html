@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Appointment Form</title>
+</head>
+<body>
+    <h2>Patient Registration</h2>
+    
+    <form action="submit_appointment.php" method="POST">
+        
+        First Name: <input type="text" name="fname"> 
+        Last Name: <input type="text" name="lname"><br><br>
+        
+        Phone: <input type="tel" name="phone">
+        Email: <input type="email" name="email"><br><br>
+        
+        Medical History (Brief):<br>
+        <textarea name="history" rows="3" cols="50"></textarea><br><br>
+        
+        City: 
+        <select name="city">
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Nashik</option>
+        </select><br><br>
+        
+        <strong>Select Department:</strong><br>
+        <input type="checkbox" name="dept" value="neuro"> Neurosurgeon<br>
+        <input type="checkbox" name="dept" value="pediatric"> Pediatric<br>
+        <input type="checkbox" name="dept" value="gynac"> Gynecology<br>
+        <input type="checkbox" name="dept" value="skin"> Skin Specialist<br>
+        <input type="checkbox" name="dept" value="ortho"> Ortho<br>
+        <input type="checkbox" name="dept" value="dental"> Dental<br><br>
+        
+        <input type="submit" value="Book Appointment">
+        
+    </form>
+</body>
+</html>

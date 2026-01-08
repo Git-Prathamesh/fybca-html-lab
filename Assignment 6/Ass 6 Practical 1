@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical 1: CSS Registration</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light Blue background */
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: darkblue;
+            text-align: center;
+            text-decoration: underline;
+        }
+        /* Styling the form container */
+        .form-box {
+            border: 2px solid navy;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-box">
+        <h2>Register Here</h2>
+        <form>
+            <label style="color: red; font-weight: bold;">Username:</label><br>
+            <input type="text" name="user" style="background-color: yellow;"><br><br>
+
+            <label style="color: green; font-weight: bold;">Password:</label><br>
+            <input type="password" name="pass" style="background-color: lightgrey;"><br><br>
+
+            <input type="submit" value="Sign Up" style="background-color: navy; color: white; border-radius: 5px;">
+        </form>
+    </div>
+
+</body>
+</html>

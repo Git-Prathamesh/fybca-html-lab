@@ -1,0 +1,40 @@
+/* Background Image for the whole page */
+body {
+    background-image: url('logo_bg.png'); /* Put your image file here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+}
+
+/* Company Name Styling */
+.company-title {
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+/* Address Styling */
+.address {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Scrolling Text Styling */
+.scroll-msg {
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Project Names - Different Colors & Styles */
+#proj1 { color: blue; font-weight: bold; font-family: Courier; }
+#proj2 { color: green; font-style: italic; font-family: Tahoma; }
+#proj3 { color: purple; text-decoration: underline; font-family: Impact; }
+
+.footer-img {
+    text-align: center;
+    margin-top: 50px;
+}

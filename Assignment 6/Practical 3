@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYCOLLEGE Profile</title>
+    <link rel="stylesheet" type="text/css" href="college_style.css">
+</head>
+<body>
+
+    <h1 class="college-name">INDIRA COLLEGE OF ENGINEERING</h1>
+    <p class="col-address">Parantwadi, Maharashtra, India</p>
+
+    <marquee class="news-ticker">Admissions Open for 2026! Apply Now for BCA & MCA.</marquee>
+
+    <h3>Courses Offered:</h3>
+    <ol>
+        <li class="course1">Bachelor of Computer Applications (BCA)</li>
+        <li class="course2">Data Science Master's</li>
+        <li class="course3">Cyber Security Certification</li>
+    </ol>
+
+    <center>
+        <img src="college_building.jpg" alt="College Campus" width="300">
+    </center>
+
+</body>
+</html>
